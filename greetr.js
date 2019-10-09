@@ -4,21 +4,24 @@
      return new Greetr.init(firstName, lastName, language); 
   }
 
-  var supportedLangs = ["en", "es"];
+  var supportedLangs = ["en", "es", "sr"];
 
   var greetings = {
     en: "Hello",
-    es: "Hola"
+    es: "Hola",
+    sr: "Zdravo"
   };
 
   var formalGreetings = {
     en: "Greetings",
-    es: "Saludos"
+    es: "Saludos",
+    sr: "Pozdrav"
   };
 
   var logMessages = {
     en: "Logged in",
-    es: "Inicio sesion"
+    es: "Inicio sesion",
+    sr: "Uspešno logovanje"
   }
 
   Greetr.prototype = {
