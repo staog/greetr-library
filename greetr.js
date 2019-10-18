@@ -79,7 +79,7 @@
 
     HTMLgreet: function(selector, formal) {
       if (!$) {
-        throw "jQuery not loaded.";
+        throw "jQuery is not loaded.";
       }
       if (!selector) {
         throw "Selector not found";
@@ -107,7 +107,6 @@
     self.firstName = firstName || "";
     self.lastName = lastName || "";
     self.language = language || 'en';
-
     self.validate();
 
   }
