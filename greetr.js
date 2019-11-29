@@ -21,7 +21,7 @@
   var logMessages = {
     en: "Logged in",
     es: "Inicio sesion",
-    sr: "Uspešno logovanje"
+    sr: "Uspešno ste se ulogovali"
   }
 
   Greetr.prototype = {
@@ -79,7 +79,7 @@
 
     HTMLgreet: function(selector, formal) {
       if (!$) {
-        throw "jQuery is not loaded.";
+        throw "Sorry to inform you, but jQuery is not loaded.";
       }
       if (!selector) {
         throw "Selector not found";
